@@ -1,8 +1,8 @@
 class Ruff < Formula
   desc "IoT platform with JavaScript as application language"
   homepage "https://ruff.io"
-  url "http://sdk.ruff.io/ruff-sdk-mac-1.6.0.zip"
-  sha256 "6855e155b1d9fbaddc83123ffa6e8c80e47f86dd42df67782be91241f167f357"
+  url "http://sdk.ruff.io/ruff-sdk-mac-1.6.1.zip"
+  sha256 "c8152fc562e4e565467f227b2e692a5c96f9ebc452e2f54db35d86028d8536b0"
 
   def install
     prefix.install Dir["*"]
